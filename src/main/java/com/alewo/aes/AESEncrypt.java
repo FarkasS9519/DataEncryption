@@ -13,7 +13,7 @@ public class AESEncrypt {
     /**
      * Encrypts the given string, using the given secret.
      *
-     * @example
+     * Example
      * username: pah1230
      * secret: 696fc516953fdd5918f07a41ba8899d74e628f5f13ce7c7c1cce1ebdbf5716e7
      * encrypted username: UkMSiJRLZ8Ruyvw1tcF6rw==

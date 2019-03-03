@@ -9,7 +9,7 @@ public class AESDecrypt {
     /**
      * Decrypts the String with the help of the secret.
      *
-     * @example
+     * Example
      * encrypted username: UkMSiJRLZ8Ruyvw1tcF6rw==
      * secret: 696fc516953fdd5918f07a41ba8899d74e628f5f13ce7c7c1cce1ebdbf5716e7
      * decrypted username: pah1230

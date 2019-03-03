@@ -15,7 +15,7 @@ public class SHAEncrypt {
      * Before the real encoding, call this method with another string (e.g. the username, user_id), and add that hash
      * to the original string.
      *
-     * @example
+     * Example
      * username: pah1230
      * password: pahpah
      * salt generated from username: 897eac96bb310c53b24286043c023563708a2838449f3bd4cc51f9748f7833a2
