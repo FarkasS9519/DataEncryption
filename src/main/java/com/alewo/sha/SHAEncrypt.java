@@ -3,7 +3,6 @@ package com.alewo.sha;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.Random;
 
 public class SHAEncrypt {
 
@@ -18,8 +17,9 @@ public class SHAEncrypt {
      *
      * @example
      * username: pah1230
-     * salt generated: 897eac96bb310c53b24286043c023563708a2838449f3bd4cc51f9748f7833a2
-     * generated hash: 3b20dc5ea2eb011cb407c5f5f98cd58a2972ea3dd069c59d36620a4689d7776d
+     * password: pahpah
+     * salt generated from username: 897eac96bb310c53b24286043c023563708a2838449f3bd4cc51f9748f7833a2
+     * generated hash: 696fc516953fdd5918f07a41ba8899d74e628f5f13ce7c7c1cce1ebdbf5716e7
      *
      * @param string_to_encode = a string to encode using SHA-256 algorithm
      * @return = a unique hash, which is irreversible.

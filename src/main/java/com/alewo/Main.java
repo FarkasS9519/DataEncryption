@@ -11,7 +11,7 @@ public class Main {
         String password = "pahpah";
 
         String salt = SHAEncrypt.encodeString(username);
-        System.out.println("Salt:" + salt);
+        System.out.println("Salt: " + salt);
         password = SHAEncrypt.encodeString(password + salt);
         System.out.println("Hashed password: " + password);
 
